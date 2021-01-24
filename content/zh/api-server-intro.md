@@ -13,12 +13,12 @@ API Server 使用 [Laravel Sanctum](https://laravel.com/docs/8.x/sanctum) 进行
 
 要获取新的 API 密钥，你可以在 web UI 中[创建一个](https://scoredb.tech/profile/tokens) ，也可以使用有 [`user:token`](/roles#usertoken) 权限的其它密钥调用 [Tokens API](/endpoint-tokens) 创建一个。
 
-获取密钥后，只需要在 HTTP 请求中加入如下的 `Authorization` Header，就可以自由发送请求了。
+获取密钥后，只需要在 HTTP 请求中加入如下的 `Authorization` Header，就可以自由发送请求了：
 ```
 Authorization: Bearer placeyourtokenhere
 ```
 
-请一定保管好自己的密钥，因为任何得到它都可以用它来以你的身份执行操作。
+请一定保管好自己的密钥，因为任何得到它的人都可以用它来以你的身份执行操作。
 
 ### 密钥权限 (Roles)
 
