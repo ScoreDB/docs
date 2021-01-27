@@ -16,5 +16,15 @@ export default theme({
   },
   colorMode: {
     preference: 'system'
+  },
+  pwa: {
+    meta: {
+      name: 'ScoreDB Docs'
+    },
+    manifest: {
+      name: 'The documentations of ScoreDB v3',
+      short_name: 'ScoreDB Docs',
+      lang: 'zh'
+    }
   }
 })

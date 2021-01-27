@@ -1,17 +1,21 @@
 ---
 title: Roles
 description: ''
-position: 3
+position: 5
 category: Reference
 ---
 
 权限可以被分配给用户和 API 密钥，用来控制其访问。
 
+<alert type="info">
+要查看当前用户拥有的权限，可以调用 <a href="/endpoint-user#查看当前用户">User API</a> 查看。
+</alert>
+
 ## 权限列表
 
 这里是 ScoreDB API Server 所有可用的权限：
 
-### `studentdb`
+### `studentdb:read`
 
 **读取 StudentDB 的权限。**
 
