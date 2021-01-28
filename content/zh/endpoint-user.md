@@ -1,7 +1,7 @@
 ---
 title: User
 description: ''
-position: 4
+position: 3
 category: Endpoints
 ---
 
